@@ -3,7 +3,7 @@ pipeline {
      stages {
         stage('clone') {
            steps {
-           git branch:'main', url: 'https://github.com/sowjanya-it/Calculator.git';
+           git branch:'main', url: 'git@github.com:245123737105-art/calculator1.git';
           }
         }
         stage('compile') {
